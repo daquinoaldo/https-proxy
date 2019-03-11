@@ -1,0 +1,30 @@
+{
+  "name": "https-proxy",
+  "version": "1.0.0",
+  "description": "Serve an http website through https.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Test missing! Do you want to contibute? https://github.com/daquinoaldo/https-proxy\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daquinoaldo/https-proxy.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "proxy",
+    "SSL",
+    "http2https"
+  ],
+  "author": "Aldo D'Aquino",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/daquinoaldo/https-proxy/issues"
+  },
+  "homepage": "https://github.com/daquinoaldo/https-proxy#readme",
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  }
+}
