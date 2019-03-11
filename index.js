@@ -15,4 +15,5 @@ const server = http.createServer((req, res) => {
     res.writeHead(400, { 'Content-Type': 'text/plain' })
     res.end("Missing url!\nUsage: /?url=http://url-to.proxy")
   }
-}).listen(8080)
+}).listen(process.env.PORT || 8080)
+
