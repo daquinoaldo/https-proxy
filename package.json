@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/daquinoaldo/https-proxy#readme",
   "dependencies": {
-    "http-proxy": "^1.17.0"
+    "http-proxy": "^1.18.1"
   }
 }
