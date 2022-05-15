@@ -1,6 +1,10 @@
 # https-proxy
 Serve http content through https using this proxy.
 
+## ⚠️ Archived
+
+Fortunately, now it's hard to find plain http websites, while it was not when I creted this proxy. It doesn't make sense to maintain it, so I decided to archive this repository. The proxy will remain available on [Heroku](https://https-proxy.herokuapp.com) <sub><sup>(thank you ♥️)</sup></sub> for all those who are still depending on it.
+
 ## Live demo
 ```
 https://https-proxy.herokuapp.com/?url=http://example.com
